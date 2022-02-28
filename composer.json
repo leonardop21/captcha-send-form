@@ -1,0 +1,21 @@
+{
+    "name": "leona/captcha-form",
+    "description": "Verifica o captcha e envia o form",
+    "type": "library",
+    "require": {
+        "phpmailer/phpmailer": "^6.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Captcha\\": "captcha/",
+            "Form\\": "form/",
+            "Publics\\": "public/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Leonardo",
+            "email": "dev@leonardonascimento.dev"
+        }
+    ]
+}
